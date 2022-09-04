@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+div>a:visited {
+    color: gray;
+}
+
+button>a:visited {
+    color: white;
+}
+
+button>a:hover {
+    transform: translate(0.2ms);
+}
+
+button {
+    border: 0;
+    width: 125px;
+}
+
+.navigator {
+    position: relative;
+    margin: auto;
+    max-width: 1156px;
+}
+
+nav {
+    position: fixed;
+    max-width: 1156px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+}
+
+.coin,
+.exchange,
+.swap {
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    width: 80px;
+    margin: 0;
+}
+
+.second-div {
+    display: flex;
+    align-items: center;
+    color: gray;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+.search,
+.setting {
+    padding: 20px;
+}
+
+.wallet {
+    background-color: mediumseagreen;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
